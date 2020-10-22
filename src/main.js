@@ -23,8 +23,7 @@ body{
     background: rgb(255,255,255);
 background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 50%, rgba(0,0,0,1) 50%, rgba(0,0,0,1) 100%);
 }
-/*你这么聪明，一定猜到我要画什么了吧
-没错！就是阴阳八卦图哦*/
+/*再加点东西吧*/
 #div1::before{
     width:100px;
     height:100px;
@@ -34,6 +33,8 @@ background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 5
     background:black;
     background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 25%, rgba(255,255,255,1) 25%, rgba(0,0,0,1) 25%, rgba(0,0,0,1) 100%);
 }
+/*你这么聪明，一定猜到我要画什么了吧
+没错！就是阴阳八卦图哦*/
 #div1::after{
     width:100px;
     height:100px;
